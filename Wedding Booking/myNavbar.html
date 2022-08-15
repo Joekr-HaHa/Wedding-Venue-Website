@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<style>
+  .navbar {
+    background: linear-gradient(to right, #ffffff 0%, #ff99cc 25%,#ffffff 50%,#ff99cc 75%,#ffffff 100%);
+    background-size: 500% 100%;
+    animation: animationTime 20s infinite linear;
+}
+@keyframes animationTime{
+  0%{
+    background-position-x: 0;
+  }
+  100%{
+    background-position-x: 100%;
+  }
+}
+</style>
+<!--The above creates an ombre pattern image, then runs a loop of moving it's x position, to make it appear animated -->
+<body>
+    <div id="myNavbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"><!-- Creates a navbar -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">Joe's Weddings</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="wedding.php">Find a Venue</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Locations
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="locations.html#centralPlaza">Central Plaza</a></li>
+                  <li><a class="dropdown-item" href="locations.html#pacificTowers">Pacific Towers Hotel</a></li>
+                  <!--<li><hr class="dropdown-divider"></li>-->
+                  <li><a class="dropdown-item" href="locations.html#skyCenter">Sky Center Complex</a></li>
+                  <li><a class="dropdown-item" href="locations.html#seaView">Sea View Tavern</a></li>
+                  <li><a class="dropdown-item" href="locations.html#ashbyCastle">Ashby Castle</a></li>
+                  <li><a class="dropdown-item" href="locations.html#fawltyTowers">Fawlty Towers</a></li>
+                  <li><a class="dropdown-item" href="locations.html#hilltopMansion">Hilltop Mansion</a></li>
+                  <li><a class="dropdown-item" href="locations.html#haslegraveHotel">Haslegrave Hotel</a></li>
+                  <li><a class="dropdown-item" href="locations.html#forestInn">Forest Inn</a></li>
+                  <li><a class="dropdown-item" href="locations.html#southwestern">Southwestern Estate</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    </body>
+</html>

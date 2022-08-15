@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<title>Wedding Booking</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+	font-family: "Apple Chancery", Times, serif;
+	/*background-color: #D6D6D6;*/
+    background-image: url('flowers.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.center {
+	text-align:center;
+}
+body,td,th {
+	color: #06F; 
+}
+.larger {
+	font-size:larger;
+	
+}
+#dude{
+   max-width:20%;
+   height: auto;
+   position:absolute;
+   right:70px;
+   top:400px;
+}
+</style>
+</head>
+<body>
+<div id="myNavbar">
+        <script>
+        $.get("myNavbar1.php", function(data) {
+        $("#myNavbar").html(data);});
+            </script>
+    </div>
+    <br><br>
+<div class="card" style="max-width:65%; position:relative;left:20px;top:30px">
+    <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas volutpat blandit aliquam etiam erat velit. Elit ut aliquam purus sit. Non pulvinar neque laoreet suspendisse interdum consectetur libero. At risus viverra adipiscing at in tellus integer feugiat. Elementum nisi quis eleifend quam adipiscing vitae proin. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Sit amet mattis vulputate enim nulla aliquet porttitor. Vitae elementum curabitur vitae nunc sed velit. Risus viverra adipiscing at in tellus. Hendrerit dolor magna eget est. Enim nulla aliquet porttitor lacus luctus accumsan. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Ac odio tempor orci dapibus ultrices in. Proin sagittis nisl rhoncus mattis rhoncus.
+<br><br>
+        Risus in hendrerit gravida rutrum quisque. Montes nascetur ridiculus mus mauris vitae. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Tempor id eu nisl nunc. Auctor augue mauris augue neque gravida in fermentum. Eu consequat ac felis donec et odio. Eget sit amet tellus cras adipiscing enim eu turpis. Malesuada fames ac turpis egestas. Enim nec dui nunc mattis enim ut tellus elementum sagittis. Quam quisque id diam vel quam elementum pulvinar etiam. Non enim praesent elementum facilisis leo. Feugiat nisl pretium fusce id velit ut tortor pretium viverra. Euismod quis viverra nibh cras pulvinar. Orci sagittis eu volutpat odio.
+   <br><br>  
+        Facilisi nullam vehicula ipsum a arcu cursus vitae congue. Placerat orci nulla pellentesque dignissim enim. Risus nullam eget felis eget nunc lobortis mattis. Pretium lectus quam id leo in vitae turpis. Mi tempus imperdiet nulla malesuada pellentesque. Sed turpis tincidunt id aliquet risus feugiat in. Malesuada proin libero nunc consequat interdum. Amet volutpat consequat mauris nunc congue nisi vitae. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Vitae auctor eu augue ut lectus. Donec enim diam vulputate ut pharetra sit. Facilisi etiam dignissim diam quis enim lobortis.
+     <br>  <br> 
+        Cras sed felis eget velit aliquet sagittis id consectetur. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. In hac habitasse platea dictumst. Ac tortor vitae purus faucibus ornare suspendisse. Eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Aliquet eget sit amet tellus cras. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Dignissim enim sit amet venenatis urna cursus eget nunc. Elit sed vulputate mi sit amet mauris commodo. Id leo in vitae turpis massa. Urna duis convallis convallis tellus id interdum velit laoreet id. Libero justo laoreet sit amet. Eu non diam phasellus vestibulum lorem sed risus. Hendrerit gravida rutrum quisque non. Sed vulputate odio ut enim blandit volutpat maecenas volutpat. Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis.
+     <br><br>   
+        Mauris a diam maecenas sed enim. Quam viverra orci sagittis eu volutpat odio facilisis mauris sit. Venenatis cras sed felis eget velit aliquet. Ut aliquam purus sit amet luctus venenatis lectus. Tempus imperdiet nulla malesuada pellentesque elit eget. Egestas integer eget aliquet nibh praesent tristique magna. Felis bibendum ut tristique et egestas quis ipsum. Nec feugiat in fermentum posuere urna nec. At consectetur lorem donec massa sapien faucibus et. Eu non diam phasellus vestibulum lorem sed risus. Tincidunt ornare massa eget egestas purus. Nam at lectus urna duis convallis convallis tellus. Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Enim ut sem viverra aliquet eget sit amet tellus. Sed arcu non odio euismod. Velit laoreet id donec ultrices tincidunt arcu non.</div>
+  </div>
+  <br><br>
+  </div>
+      <img src="dude.png" id="dude" class="img-thumbnail rounded float-end" alt="happy customer">
+</body>
+</html>
